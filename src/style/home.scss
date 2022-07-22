@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+.home{
+
+    position: relative;
+    .renverse{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: blur(6px) brightness(78%) saturate(102%);
+-webkit-filter: blur(6px) brightness(78%) saturate(102%);
+-moz-filter: blur(6px) brightness(78%) saturate(102%);
+   background: url(./assets/img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 75%);
+
+    // height: calc(100vh - 45px)
+    height: 92vh;
+    width: 100vw;
+    // background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+    // clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 75%);
+
+transition: 0.5s;
+
+&:hover{
+clip-path: polygon(0% 0%, 100% 0, 99% 100%, 49% 80%, 0 100%);
+
+}
+    
+
+
+    .contain-left{
+        z-index: 10;
+        width: 40%;
+        // flex: 1 1 auto;
+        // background: green;
+
+        .contain-left-text{
+            h1{
+                font-family: 'Indie Flower', cursive;
+
+                font-size: 50px;
+                color: rgba(201, 185, 185, 0.781);
+                font-family: 'Courier New', Courier, monospace;
+
+                span{
+                
+                     font-family: 'Indie Flower', cursive;
+
+                font-size: 50px;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+
+                color: #cbec3a;
+                
+                }
+            }
+        
+            span{
+
+            color: white;
+          font-size: 20px;
+        //   font-family: 'Square Peg', cursive;
+        font-weight: 500px;
+
+                        font-family: 'Courier New', Courier, monospace;
+
+
+
+            
+            }
+    
+
+        
+        }
+        .contain-left-begin{
+            margin-top: 30px;
+            button{
+                padding: 2px 10px;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+                transition: all 0.5s;
+                color: white;
+                background: rgb(33, 81, 170);
+                outline: none;
+                border: none    ;
+
+                &:hover{
+                
+                background: #000;
+                }
+                
+            }
+        }
+    }
+
+    .contain-right{
+        
+        z-index: 10;
+                // flex: 1 1 auto;
+                // background: blue;
+
+                .contain-right-img{
+
+                
+                // background: red;
+            
+            // height: 40%;
+            //     background-image: url("./assets/img/person1.png");
+            //     background-repeat: no-repeat;
+            //     background-size: cover;
+    // background-size: 100% auto;
+
+            // background-image: url("../../assets/images/home-right-img.png");
+            }
+
+    
+    }
+
+}

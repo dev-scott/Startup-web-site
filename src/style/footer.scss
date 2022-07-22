@@ -1,0 +1,421 @@
+
+
+
+
+
+
+
+
+footer {
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+}
+
+.footer-distributed {
+  background-color: #020202;
+
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  margin-left: 180px;
+  width: 20%;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: -50px;
+
+    width: 2px;
+    right: -40px;
+
+    background: rgb(255, 255, 255);
+  }
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-center {
+  margin-left: 50px;
+  width: 20%;
+
+  .about_company {
+    position: relative;
+
+    color: #ffffff;
+    font: normal;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      width: 95px;
+      border-radius: 5px;
+      height: 2px;
+      background: #fff;
+      bottom: -20px;
+    }
+  }
+
+  .about_paragraphe {
+    margin: 40px 0 12px;
+
+    color: #ffffff71;
+    font: normal;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .TwoButton {
+    height: 100px;
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    .btn_1,
+    .btn_2 {
+      font-family: 'Fira Sans', sans-serif;
+      color: #fff;
+
+      border-radius: 30px;
+
+      padding: 10px 40px;
+      outline: none;
+      border: 1px solid #fff;
+
+      background: none;
+    }
+  }
+}
+
+/* Footer Right */
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #3f71ea;
+}
+
+.footer-links a:hover {
+  color: #3f71ea;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 880px) {
+
+
+
+
+
+  .footer-distributed {
+
+
+  .footer-left{
+      margin-left: 0px;
+
+
+width: 100%;
+// background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer-center{
+      margin-left: 0px;
+      width: 100%;
+          display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .about_company{
+    
+    
+    &::after{
+    
+          width: 100%;
+
+    
+    }
+
+    }
+
+
+}
+
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .footer{
+
+//     background: rgb(15, 15, 15);
+//     color: rgb(255, 247, 247);
+//     height: 500px;
+//     width: 100%;
+//     position: relative;
+
+//     bottom: 0px;
+
+//     // background: red;
+
+//     display: flex;
+//     align-items:center;
+//     justify-content: space-between;
+//     flex-direction: column;
+
+
+//     .contain-footer{
+//     // background: green;
+//     width: 100%;
+//     height: 95%;
+
+//     padding: 5px 60px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .contain-card{
+//             font-family: 'Courier New', Courier, monospace;
+
+//         // background: red;
+//         width: 85%;
+//         height: 100%;
+    
+    
+//         display: flex;
+
+//     justify-content: space-around;
+
+//     align-items:center;
+
+
+
+// .card{
+//     // background: yellow;
+//     height: 50%;
+
+//     h1{
+//         margin-bottom: 30px;
+//         color: rgb(94, 31, 209);
+    
+//     }
+
+//     ul{
+//     list-style: none;
+
+//     li{
+//         width: 40px;
+//         height: 40px;
+//         a{
+        
+//         img{
+        
+//         width: 100%;
+//         height: 100%;
+//         }
+//         }
+    
+//     margin-bottom: 10px;
+    
+//     }
+
+
+// }
+
+// }
+
+
+//     }
+
+//     }
+
+//     .contain-copyright{
+        
+//         color: rgb(255, 255, 255);
+//         background: rgb(24, 33, 77);
+//         border-top: 2px solid white;
+//         // background: #000;
+//         height: 15%;
+//         width: 100%;
+//          display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         span{
+//             display: block;
+           
+//         // margin: 0 auto;
+    
+//     }
+//     }
+
+   
+
+
+// }
