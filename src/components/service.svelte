@@ -1,8 +1,8 @@
 <script>
-  let src1 = '/build/assets/img/appMobile.png';
-  let src2 = '/build/assets/img/appWeb.png';
-  let src3 = '/build/assets/img/appDesign.png';
-  let src4 = '/build/assets/img/appCourse.png';
+  let src1 = '/build/appMobile.png';
+  let src2 = '/build/appWeb.png';
+  let src3 = '/build/appDesign.png';
+  let src4 = '/build/appCourse.png';
 
 //   import '../data/data.svelte'
 

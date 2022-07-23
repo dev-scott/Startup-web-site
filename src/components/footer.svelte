@@ -1,7 +1,7 @@
 <script>
-  let src1 = '/build/assets/img/facebook.png';
-  let src2 = '/build/assets/img/instagram.png';
-  let src3 = '/build/assets/img/twitter.png';
+  let src1 = '/build/facebook.png';
+  let src2 = '/build/instagram.png';
+  let src3 = '/build/twitter.png';
 </script>
 
 <footer class="footer-distributed">

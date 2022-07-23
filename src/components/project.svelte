@@ -5,12 +5,12 @@
     faCaretUp,
   } from '@fortawesome/free-solid-svg-icons/index.es';
 
-  let src1 = '/build/assets/img/verifier.png';
-  let src2 = '/build/assets/img/reverifier.png';
+  let src1 = '/build/verifier.png';
+  let src2 = '/build/reverifier.png';
 
-  let src3 = '/build/assets/img/man.png';
+  let src3 = '/build/man.png';
 
-  let src4 = '/build/assets/img/countries.png';
+  let src4 = '/build/countries.png';
 
 
 

@@ -2,7 +2,7 @@
    import Fa from 'svelte-fa/src/fa.svelte'
  import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons/index.es'
 
-  let src1 = '/build/assets/img/person1.png';
+  let src1 = '/build/person1.png';
 
 
 

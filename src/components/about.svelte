@@ -1,5 +1,5 @@
 <script>
-  let src1 = '/build/assets/img/about.png';
+  let src1 = '/build/about.png';
 </script>
 
 <div class="about " id="about">
